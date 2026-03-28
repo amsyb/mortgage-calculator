@@ -27,13 +27,22 @@
     </style>
   </head>
   <body>
-    <h1>Mortgage Calculator</h1>
-    <a href="">Clear All</a>
-    <label for="">Mortgage Amount</label>
-    <input type="text" />
-    <label for="">Mortgage Term</label>
-    <input type="text" />
-    <label for="">Interest Rate</label>
-    <input type="text" name="" id="" />
+    <div class="header">
+      <h1>Mortgage Calculator</h1>
+      <a href="">Clear All</a>
+    </div>
+    <div class="fw-field">
+      <label for="">Mortgage Amount <input type="text" /></label>
+    </div>
+    <label for="">Mortgage Term <input type="text" /> </label>
+    <label for="">Interest Rate <input type="text" name="" id="" /></label>
+    <h2>Mortgage Type</h2>
+    <label for="">
+      <input type="radio" name="repayment" value="repayment" /> Repayment
+    </label>
+    <label for="">
+      <input type="radio" name="repayment" value="repayment" /> Interest Only
+    </label>
+    <button>Calculate Payments</button>
   </body>
 </html>
