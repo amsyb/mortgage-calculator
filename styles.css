@@ -81,7 +81,9 @@ input {
 
 .field-radio {
   padding: 10px;
-  border: 1px solid black;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid hsl(200, 26%, 54%);
 }
 
 .radio-btns {
@@ -89,6 +91,13 @@ input {
   flex-direction: column;
   gap: 10px;
   padding-bottom: 20px;
+}
+
+.radio-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 .mortgage-type {
