@@ -12,18 +12,12 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Mortgage repayment calculator</title>
-
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="header">
@@ -45,12 +39,20 @@
       /></label>
     </div>
     <h2>Mortgage Type</h2>
-    <label for="">
-      <input type="radio" name="repayment" value="repayment" /> Repayment
-    </label>
-    <label for="">
-      <input type="radio" name="repayment" value="repayment" /> Interest Only
-    </label>
+    <div class="radio-btns">
+      <div class="field-radio">
+        <label for="">
+          <input type="radio" name="repayment" value="repayment" />
+          Repayment
+        </label>
+      </div>
+      <div class="field-radio">
+        <label for="">
+          <input type="radio" name="repayment" value="repayment" />
+          Interest Only
+        </label>
+      </div>
+    </div>
     <button>Calculate Payments</button>
   </body>
 </html>

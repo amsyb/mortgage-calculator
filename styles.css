@@ -3,6 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  color: hsl(202, 55%, 16%);
+}
 
 .header {
   display: flex;
@@ -37,4 +58,16 @@
 .field-stack {
   display: flex;
   flex-direction: column;
+}
+
+.field-radio {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.radio-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
 }
