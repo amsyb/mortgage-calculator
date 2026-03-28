@@ -14,3 +14,16 @@
     justify-content: space-between;
   }
 }
+
+.fw-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-label {
+  padding-bottom: 10px;
+}
+
+.field-hf {
+  display: flex;
+}
