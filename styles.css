@@ -36,6 +36,13 @@ input {
   height: 40px;
 }
 
+button {
+  background-color: hsl(61, 70%, 52%);
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
 .left {
   padding: 30px;
 
@@ -80,7 +87,6 @@ input {
 }
 
 .field-radio {
-  padding: 10px;
   align-items: center;
   border-radius: 10px;
   border: 1px solid hsl(200, 26%, 54%);
@@ -98,6 +104,16 @@ input {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  padding: 10px;
+}
+
+.radio-title:has(input:checked) {
+  background-color: hsl(61, 70%, 52%);
+  border-color: hsl(61, 70%, 52%);
+}
+
+.radio-title input[type="radio"] {
+  accent-color: hsl(61, 70%, 52%);
 }
 
 .mortgage-type {
