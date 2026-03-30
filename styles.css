@@ -43,6 +43,10 @@ button {
   border-radius: 20px;
 }
 
+.all {
+  display: flex;
+}
+
 .left {
   padding: 30px;
 
@@ -119,4 +123,16 @@ button {
 .mortgage-type {
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.right {
+  width: 50%;
+  background-color: hsl(202, 55%, 16%);
+}
+
+.res-title {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
