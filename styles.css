@@ -130,16 +130,31 @@ button {
 }
 
 .right {
+  width: 100%;
+  background-color: hsl(202, 55%, 16%);
   @media (min-width: 768px) {
-    background-color: hsl(202, 55%, 16%);
     width: 50%;
   }
 }
 
+.right-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.res-title {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
 .res-body {
   width: 50%;
-  color: hsl(0, 0%, 100%);
+  color: hsl(203, 41%, 72%);
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
